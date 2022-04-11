@@ -1,0 +1,105 @@
+{
+  "user": "Shashikant Wagh",
+  "title": "Frontend/ JavaScript Developer",
+  "sections": {
+    "about": {
+      "title": "I am a frontend (JavaScript) engineer especially interested in building magical web application experiences, scaling systems up, and shipping reliable web applications",
+      "education": [
+        {
+          "university": "Pune Vidhyarthi Griha's College Of Engineering, Nashik",
+          "major": "Computer Engineering",
+          "year": "2014"
+        }
+      ],
+      "awards": []
+    },
+    "skill": {
+      "title": "I am self tought programmer, writting code for better part of decade, I started as a Backend dev on PHP but moved to Frontend/ JavaScript ecosystem in last 4 years.",
+      "list": [
+        {
+          "label": "JavaScript",
+          "grading": "85%"
+        },
+        {
+          "label": "ES6",
+          "grading": "85%"
+        },
+        {
+          "label": "TypeScript",
+          "grading": "85%"
+        },
+        {
+          "label": "Vue",
+          "grading": "80%"
+        },
+        {
+          "label": "React",
+          "grading": "75%"
+        },
+        {
+          "label": "PHP",
+          "grading": "85%"
+        }
+      ]
+    },
+    "experience": {
+      "title": "",
+      "list": [
+        {
+          "organization": "Bonzer technologies pvt. ltd",
+          "title": "Sr. Frontend developer (Vue)",
+          "workFrom": "2018",
+          "workTill": "",
+          "jobDetails": "I work as front-end developers, in order to migrate the current web application which is built in Symfony 3 to a fully single page web application in Vue 3. App currently uses Vue 3 as a JavaScript framework and Webpack as module bundler and task runner. My work primarily involves writing scalable, reusable and clean vue components which makes testing, deployment and scaling the application efficient. Before working at Bonzer, I was working as a backend developer on PHP frameworks like Laravel and Symfony but I had a strong foundation in JavaScript which made my transition as a frontend developer seamless."
+        },
+        {
+          "organization": "Aress software pvt. ltd",
+          "title": "Sr. PHP developer",
+          "workFrom": "2017",
+          "workTill": "2018",
+          "jobDetails": "I was working as a Backend developer (PHP) with Aresss Software. My role involved gathering project requirements, building a project plan and schedule for it, project management to an extent and working with the rest of the team in the development phase. I have worked on a number of PHP frameworks ranging from CodeIgnitor, Laravel, Zend to Symfony along with PHP CMS like Wordpress and Magento. I had also worked on React and Vue Js for building a few components which later used in other web applications."
+        },
+        {
+          "organization": "BackTech pvt. ltd",
+          "title": "PHP developer",
+          "workFrom": "2015",
+          "workTill": "2017",
+          "jobDetails": " I was working with BackTech as a PHP developer using CodeIgnitor framework, on their product DialNashik. DialNashik was a local classified site for small businesses in the area to post their ads, products and services and was quite extensive multi-tenant system. My role primarily involved working on the development end of the product working both on web applications as well as API for mobile apps while collaborating with the design and DBA team."
+        }
+      ]
+    },
+    "testimonial": {
+      "title": "",
+      "users": [
+        {
+          "name": "Usman Ali",
+          "organization": "https://ordant.com/",
+          "role": "Principal at Ordant.com",
+          "recommendation": "I have worked with Shashikant for the past 3 years. It wont be an understatement to say that he is a Vue.js ‘genius’. Shashi is highly qualified for any Single Page App product for several reasons. Shashi is an important contributor to our project. He consistently delivers high quality work, meets or exceeds expectation, and assists his co-workers at every opportunity. He never missed a deadline."
+        },
+        {
+          "name": "Yogesh Suryawanshi",
+          "organization": "https://www.infogain.com/",
+          "role": "Senior Consultant at Infogain | Magento 2 | Node js | E-commerce Expert | AWS | Javascript",
+          "recommendation": "Shashikant is one of the best among all people I have ever met and is a loyal colleague, understands complex matters. Shashikant is a strong and goal oriented team player, with every problem there was a solution. Highly recommended."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Want to say hello? Want to know more about me? Give me a call or drop me an email and I will get back to you as soon as I can.",
+      "address": "422008, Nashik, Maharashtra, India",
+      "phones": ["(+91) 9552698293", "(+91) 7620487927"],
+      "emails": ["shashikantwagh721@gmail.com"]
+    },
+    "portfolio": {
+      "title": "This is the list of my open source work, mainly the NPM packages",
+      "packages": {
+        "props-to-data": ["Vue", "ES6", "JavaScript"],
+        "vue-autocomplete-ele": ["Vue", "ES6", "JavaScript"],
+        "vue-datatable-ele": ["Vue", "ES6", "JavaScript"],
+        "vue-sortable-table": ["Vue", "ES6", "JavaScript"]
+      }
+    }
+  },
+  "blogRSSfeed": "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@shashikantwagh721"
+}
