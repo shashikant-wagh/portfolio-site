@@ -1,10 +1,8 @@
 import About from "../components/about";
 import Skills from "../components/skills";
 import Footer from "../components/footer";
-import Header from "../components/header";
 import Banner from "../components/banner";
 import Contact from "../components/contact";
-import Services from "../components/services";
 import Portfolio from "../components/portfolio";
 import BlogPosts from "../components/blog-posts";
 import BackToTop from "../components/back-to-top";
@@ -12,6 +10,7 @@ import Experience from "../components/experience";
 import Testimonial from "../components/testimonial";
 import MobileLogo from "../components/mobile/mobile-logo";
 import MobileNavToggle from "../components/mobile/mobile-nav-toggle";
+import NavBar from "../components/navigation/navbar";
 
 const Home = () => (
   <>
@@ -19,10 +18,12 @@ const Home = () => (
 
     {/* <!-- Mobile logo --> */}
     <MobileLogo />
+
     {/* <!-- Navigation toggle --> */}
     <MobileNavToggle />
-    {/* <!-- Site header --> */}
-    <Header />
+
+    {/* <!-- Site nav --> */}
+    <NavBar />
 
     {/* <!-- Header overlay --> */}
     <div className="header-overlay">
@@ -46,7 +47,6 @@ const Home = () => (
         <About />
         <Skills />
         <Experience />
-        {/* <Services /> */}
         <Portfolio />
         <Testimonial />
         <BlogPosts />

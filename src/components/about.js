@@ -1,4 +1,5 @@
 import SITE_DATA from "../site-data.json";
+import ResumeFile from "../assets/pdf/shashikant-s-wagh-resume.pdf";
 
 const About = () => (
   <section id="about">
@@ -46,7 +47,7 @@ const About = () => (
               </div>
             ) : null}
           </div>
-          <a href="/" className="btn btn-primary">
+          <a href={ResumeFile} className="btn btn-primary" download>
             Download CV
           </a>
           <a href="#contact" className="btn btn-light scrollto">

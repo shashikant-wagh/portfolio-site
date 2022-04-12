@@ -1,6 +1,6 @@
 {
   "user": "Shashikant Wagh",
-  "title": "Frontend/ JavaScript Developer",
+  "title": "JavaScript Developer",
   "sections": {
     "about": {
       "title": "I am a frontend (JavaScript) engineer especially interested in building magical web application experiences, scaling systems up, and shipping reliable web applications",
@@ -89,7 +89,24 @@
       "title": "Want to say hello? Want to know more about me? Give me a call or drop me an email and I will get back to you as soon as I can.",
       "address": "422008, Nashik, Maharashtra, India",
       "phones": ["(+91) 9552698293", "(+91) 7620487927"],
-      "emails": ["shashikantwagh721@gmail.com"]
+      "emails": ["shashikantwagh721@gmail.com"],
+      "social": [
+        {
+          "source": "LinkedIn",
+          "icon": "fa-brands fa-linkedin",
+          "link": "https://www.linkedin.com/in/shashikant-s-wagh/"
+        },
+        {
+          "source": "Git",
+          "icon": "fa-brands fa-github",
+          "link": "https://github.com/shashikant-wagh"
+        },
+        {
+          "source": "NPM",
+          "icon": "fa-brands fa-npm",
+          "link": "https://www.npmjs.com/~shashikant_wagh"
+        }
+      ]
     },
     "portfolio": {
       "title": "This is the list of my open source work, mainly the NPM packages",
@@ -100,6 +117,12 @@
         "vue-sortable-table": ["Vue", "ES6", "JavaScript"]
       }
     }
+  },
+  "SMTP_SERVER": {
+    "host": "smtp.elasticemail.com",
+    "username": "shashikantwagh721@gmail.com",
+    "password": "50EFA894ACB5CF0F3F21348189551DBCDB59",
+    "to": "shashikantwagh721@gmail.com"
   },
   "blogRSSfeed": "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@shashikantwagh721"
 }

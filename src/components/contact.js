@@ -1,6 +1,6 @@
 import SITE_DATA from "../site-data.json";
-import ContactDetails from "./contact/contact-details";
 import ContactForm from "./contact/contact-form";
+import ContactDetails from "./contact/contact-details";
 
 const Contact = () => (
   <section id="contact">

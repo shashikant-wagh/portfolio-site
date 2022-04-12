@@ -1,7 +1,9 @@
 import SITE_DATA from "../site-data.json";
+import UsmanAliLogo from "../assets/images/usman-ali.png";
+import YogeshSuryawanshiLogo from "../assets/images/yogesh-suryawanshi.png";
 
 const Testimonial = () => (
-  <section>
+  <section id="testimonial">
     <div className="overlay">
       <div className="overlay-inner bg-image-holder bg-cover bg-center">
         <img src="assets/demo/images/image-5.jpg" alt="background" />
@@ -25,7 +27,11 @@ const Testimonial = () => (
                   <footer className="d-flex justify-content-center align-items-center w-lg-50 mx-auto text-left">
                     <div className="avatar">
                       <img
-                        src="assets/demo/images/avatar_small.jpg"
+                        src={
+                          user.name === "Usman Ali"
+                            ? UsmanAliLogo
+                            : YogeshSuryawanshiLogo
+                        }
                         alt=""
                         className="avatar-img rounded-circle shadow-dark"
                       />

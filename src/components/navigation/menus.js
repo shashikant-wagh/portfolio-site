@@ -12,8 +12,18 @@ const Menus = () => (
         </a>
       </li>
       <li>
-        <a href="#services" className="scrollto">
-          Services
+        <a href="#skills" className="scrollto">
+          Skills
+        </a>
+      </li>
+      <li>
+        <a href="#experience" className="scrollto">
+          Experience
+        </a>
+      </li>
+      <li>
+        <a href="#testimonial" className="scrollto">
+          Testimonial
         </a>
       </li>
       <li>
@@ -23,7 +33,7 @@ const Menus = () => (
       </li>
       <li>
         <a href="#news" className="scrollto">
-          News
+          Posts
         </a>
       </li>
       <li>

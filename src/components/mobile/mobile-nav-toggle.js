@@ -2,11 +2,8 @@ const MobileNavToggle = () => (
   <button
     type="button"
     id="navigation-toggle"
-    className="nav-toggle nav-toggle-light"
+    className="nav-toggle nav-toggle-dark bg-white"
   >
-    <div className="overlay">
-      <div className="overlay-inner bg-dark opacity-50"></div>
-    </div>
     <span></span>
   </button>
 );
