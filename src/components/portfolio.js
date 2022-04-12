@@ -119,7 +119,7 @@ const Portfolio = () => {
                   </div>
                 </div>
                 <h3 className="h4 mb-2">{pkg.name}</h3>
-                <p>{pkg.description}</p>
+                <p>{pkg.description || pkg.name + " package"}</p>
               </div>
             </div>
           ))}
