@@ -4,21 +4,12 @@ import SITE_DATA from "../../site-data.json";
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     from: "",
-    body: "",
+    message: "",
     subject: "",
   });
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log({
-      Host: SITE_DATA.SMTP_SERVER.host,
-      Username: SITE_DATA.SMTP_SERVER.username,
-      Password: SITE_DATA.SMTP_SERVER.password,
-      To: SITE_DATA.SMTP_SERVER.to,
-      From: formData.from,
-      Subject: formData.body,
-      Body: formData.subject,
-    });
 
     window.Email.send({
       Host: SITE_DATA.SMTP_SERVER.host,
@@ -28,6 +19,12 @@ const ContactForm = () => {
       From: formData.from,
       Subject: formData.body,
       Body: formData.subject,
+    });
+
+    setFormData({
+      from: "",
+      message: "",
+      subject: "",
     });
   };
 
