@@ -8,7 +8,7 @@ import BlogPosts from "../components/blog-posts";
 import BackToTop from "../components/back-to-top";
 import Experience from "../components/experience";
 import Testimonial from "../components/testimonial";
-// import MobileLogo from "../components/mobile/mobile-logo";
+import MobileLogo from "../components/mobile/mobile-logo";
 import MobileNavToggle from "../components/mobile/mobile-nav-toggle";
 import NavBar from "../components/navigation/navbar";
 
@@ -47,7 +47,7 @@ const Home = () => (
         <About />
         <Skills />
         <Experience />
-        {/* <Portfolio /> */}
+        <Portfolio />
         <Testimonial />
         <BlogPosts />
         <Contact />
