@@ -50,14 +50,14 @@
           "title": "Sr. Frontend developer (Vue)",
           "workFrom": "2018",
           "workTill": "",
-          "jobDetails": "I work as front-end developers, in order to migrate the current web application which is built in Symfony 3 to a fully single page web application in Vue 3. App currently uses Vue 3 as a JavaScript framework and Webpack as module bundler and task runner. My work primarily involves writing scalable, reusable and clean vue components which makes testing, deployment and scaling the application efficient. Before working at Bonzer, I was working as a backend developer on PHP frameworks like Laravel and Symfony but I had a strong foundation in JavaScript which made my transition as a frontend developer seamless."
+          "jobDetails": "I work with Bonzer, as a Frontend developer (Vue Js, ES6, JavaScript). My roles and responsibilities involves, system design and architect, writing clean, reusable and scalable Vue and React components."
         },
         {
           "organization": "Aress software pvt. ltd",
           "title": "Sr. PHP developer",
           "workFrom": "2017",
           "workTill": "2018",
-          "jobDetails": "I was working as a Backend developer (PHP) with Aresss Software. My role involved gathering project requirements, building a project plan and schedule for it, project management to an extent and working with the rest of the team in the development phase. I have worked on a number of PHP frameworks ranging from CodeIgnitor, Laravel, Zend to Symfony along with PHP CMS like Wordpress and Magento. I had also worked on React and Vue Js for building a few components which later used in other web applications."
+          "jobDetails": "I was working as a Fullstack developer (PHP+ Vue and React) with Aresss Software. My role involved gathering project requirements, building a project plan and schedule for it, project management to an extent and working with the rest of the team in the development phase. I have worked on a number of PHP frameworks ranging from CodeIgnitor, Laravel, Zend to Symfony along with PHP CMS like Wordpress and Magento along with Frontend technologies like Vue and React depending on Project requirements."
         },
         {
           "organization": "BackTech pvt. ltd",
@@ -65,6 +65,13 @@
           "workFrom": "2015",
           "workTill": "2017",
           "jobDetails": " I was working with BackTech as a PHP developer using CodeIgnitor framework, on their product DialNashik. DialNashik was a local classified site for small businesses in the area to post their ads, products and services and was quite extensive multi-tenant system. My role primarily involved working on the development end of the product working both on web applications as well as API for mobile apps while collaborating with the design and DBA team."
+        },
+        {
+          "organization": "Elance/ Upwork",
+          "title": "PHP developer",
+          "workFrom": "2015",
+          "workTill": "2017",
+          "jobDetails": " I was working on Elance platform now known as Upwork as a Freelance web developer mostly on PHP web applications. As I was working by myself my role involved Design -> Development -> Testing -> Deployment."
         }
       ]
     },
