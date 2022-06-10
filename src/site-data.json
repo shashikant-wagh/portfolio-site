@@ -47,14 +47,14 @@
       "list": [
         {
           "organization": "Bonzer technologies pvt. ltd",
-          "title": "Sr. Frontend developer (Vue)",
+          "title": "Sr. Frontend developer",
           "workFrom": "2018",
           "workTill": "",
-          "jobDetails": "I work with Bonzer, as a Frontend developer (Vue Js, ES6, JavaScript). My roles and responsibilities involves, system design and architect, writing clean, reusable and scalable Vue and React components."
+          "jobDetails": "I work with Bonzer, as a Frontend developer (VueJs, ReactJs, ES6, Jest, JavaScript). My roles and responsibilities involves, system design and architect, writing clean, reusable and scalable Vue and React components."
         },
         {
           "organization": "Aress software pvt. ltd",
-          "title": "Sr. PHP developer",
+          "title": "Sr. Fullstack developer",
           "workFrom": "2017",
           "workTill": "2018",
           "jobDetails": "I was working as a Fullstack developer (PHP+ Vue and React) with Aresss Software. My role involved gathering project requirements, building a project plan and schedule for it, project management to an extent and working with the rest of the team in the development phase. I have worked on a number of PHP frameworks ranging from CodeIgnitor, Laravel, Zend to Symfony along with PHP CMS like Wordpress and Magento along with Frontend technologies like Vue and React depending on Project requirements."
