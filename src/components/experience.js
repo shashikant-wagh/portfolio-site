@@ -1,7 +1,7 @@
 import SITE_DATA from "../site-data.json";
 
 const Experience = () => (
-  <section id="experience" className="pb-0">
+  <section id="experience" className="mb-3">
     <div className="container">
       <div className="section-title h2 text-center mb-8">
         <h2 className="mb-0">Experience</h2>
@@ -16,7 +16,6 @@ const Experience = () => (
               <p className="opacity-75">
                 {experience.title}, {experience.workFrom} -
                 {experience.workTill || "Present"}
-                ...{index} || {SITE_DATA.sections.experience.list.length - 1}
               </p>
             </div>
             <div className="col-lg-8">
@@ -29,13 +28,9 @@ const Experience = () => (
               </ul>
             </div>
           </div>
-          <hr
-            className={
-              index === SITE_DATA.sections.experience.list.length - 1
-                ? "mb-0"
-                : ""
-            }
-          />
+          {index !== SITE_DATA.sections.experience.list.length - 1 ? (
+            <hr />
+          ) : null}
         </div>
       ))}
     </div>

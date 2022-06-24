@@ -55,7 +55,7 @@ const Portfolio = () => {
         })
       );
 
-      console.log(downloadsInfo);
+      // console.log(downloadsInfo);
 
       const downloads = downloadsInfo.reduce((result, download) => {
         return {

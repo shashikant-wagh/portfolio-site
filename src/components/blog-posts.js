@@ -25,7 +25,7 @@ const BlogPosts = () => {
         <div className="row">
           {posts.map((post, index) => (
             <div key={index} className="col-sm-6 col-md-4 mb-4 mb-md-0">
-              <article className="news-block border-0">
+              <article className="news-block border-0 bg-transparent">
                 <div className="news-body p-0">
                   <div className="mb-4">
                     <img
