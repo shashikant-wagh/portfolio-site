@@ -1,5 +1,4 @@
 import SITE_DATA from "../site-data.json";
-import ContactForm from "./contact/contact-form";
 import ContactDetails from "./contact/contact-details";
 
 const Contact = () => (
@@ -18,7 +17,6 @@ const Contact = () => (
           </div>
 
           <ContactDetails />
-          <ContactForm />
         </div>
       </div>
     </div>
