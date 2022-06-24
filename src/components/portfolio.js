@@ -51,9 +51,11 @@ const Portfolio = () => {
           const response = await fetch(
             "https://api.npmjs.org/downloads/point/last-month/" + pkg
           );
-          return response.json();
+          return await response.json();
         })
       );
+
+      console.log(downloadsInfo);
 
       const downloads = downloadsInfo.reduce((result, download) => {
         return {
@@ -118,7 +120,13 @@ const Portfolio = () => {
                     </span>
                   </div>
                 </div>
-                <h3 className="h4 mb-2">{pkg.name}</h3>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={`https://www.npmjs.com/package/${pkg.name}`}
+                >
+                  <h3 className="h4 mb-2">{pkg.name}</h3>
+                </a>
                 <p>{pkg.description || pkg.name + " package"}</p>
               </div>
             </div>
