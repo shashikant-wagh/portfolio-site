@@ -71,7 +71,7 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <section id="portfolio">
+    <section id="portfolio" className="bg-light">
       <div className="container">
         <div className="row mb-8">
           <div className="col-lg-10 col-xl-8 mx-lg-auto text-center">

@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!--
+G:\Work\portfolio (master -> origin)
+λ heroku login
+
+G:\Work\portfolio (master -> origin)
+λ git add .
+
+G:\Work\portfolio (master -> origin)
+λ git commit -m "Removed contact form"
+
+G:\Work\portfolio (master -> origin)
+λ git push heroku master -->

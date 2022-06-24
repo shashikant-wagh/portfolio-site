@@ -16,6 +16,7 @@ const Experience = () => (
               <p className="opacity-75">
                 {experience.title}, {experience.workFrom} -
                 {experience.workTill || "Present"}
+                ...{index} || {SITE_DATA.sections.experience.list.length - 1}
               </p>
             </div>
             <div className="col-lg-8">
@@ -27,9 +28,14 @@ const Experience = () => (
                   )}
               </ul>
             </div>
-            <hr />
           </div>
-          <hr />
+          <hr
+            className={
+              index === SITE_DATA.sections.experience.list.length - 1
+                ? "mb-0"
+                : ""
+            }
+          />
         </div>
       ))}
     </div>

@@ -15,7 +15,7 @@ const BlogPosts = () => {
   }, []);
 
   return (
-    <section id="news" className="pb-0">
+    <section id="news" className="mb-3 bg-light">
       <div className="container">
         <div className="section-title h2 text-center mb-8">
           <h2 className="mb-0">Latest Posts</h2>
