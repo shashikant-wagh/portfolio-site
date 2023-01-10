@@ -18,7 +18,7 @@ const Contact = () => (
           </div>
 
           <ContactDetails />
-          <ContactForm />
+          {/* <ContactForm /> */}
         </div>
       </div>
     </div>
